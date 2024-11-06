@@ -25,7 +25,7 @@ ACCEPT_RULES_ROLE_ID = 1206047472787660881
 async def on_ready():
     print(f'Bot is online as {bot.user}')
     # Setze den Status des Bots
-    await bot.change_presence(activity=discord.Streaming(name="verhasster auf Twitch", url="https://www.twitch.tv/verhasster"))
+    await bot.change_presence(activity=discord.Streaming(name="MrCraft777 auf Twitch", url="https://www.twitch.tv/mrcraft777_live"))
 
 @bot.command()
 async def rules(ctx):
